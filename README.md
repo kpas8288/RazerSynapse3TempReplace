@@ -2,9 +2,10 @@
 解决 `Razer Synapse3` 每次启动都生产 `c:\temp` 目录的问题
 
 # 原理
-备份并修改四个配置文件
+备份并修改以下配置文件
 ````
 %ProgramFiles(x86)%\Razer\Synapse3\Service\NLog.config
+%ProgramFiles(x86)%\Razer\Synapse3\UserProcess\NLog.config
 %ProgramFiles(x86)%\Razer\Synapse3\WPFUI\Framework\Razer Synapse 3 Host\NLog.config
 %ProgramFiles(x86)%\Razer\Synapse3\WPFUI\Framework\Razer.Synapse3.Installer\NLog.config
 %ProgramFiles(x86)%\Razer\Synapse3\WPFUI\Framework\Razer.Synapse3.SyncProgress\NLog.config
